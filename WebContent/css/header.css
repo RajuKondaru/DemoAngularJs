@@ -1,0 +1,132 @@
+@CHARSET "ISO-8859-1";
+
+
+/* /* CSS Document */
+---------- FONTAWESOME ----------
+---------- http://fortawesome.github.com/Font-Awesome/ ----------
+---------- http://weloveiconfonts.com/ ----------
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+---------- ERIC MEYER'S RESET CSS ----------
+---------- http://meyerweb.com/eric/tools/css/reset/ ----------
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+---------- FONTAWESOME ---------- */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+body {
+	width: 100%; 
+	min-height: 800px; 
+	max-height: 1200px;
+	margin: 0px; 
+	background-color: #ffffff;
+}
+
+.headcontainer {
+	
+}
+.header {
+	position: relative;
+    min-height: 70px;
+    background: rgb(230, 242, 244);
+    box-shadow: 0 3px 0 rgba(0,0,0,.1);
+    border: none;
+    transition: background,.1s;
+}
+
+.menubar {
+	width: 100%!important;
+    background: rgb(55, 66, 70);
+    height: 44px;
+    position: relative;
+	
+   	border: 0px;
+  	border-radius: 0px;
+  	min-height: 0px;
+  	margin-top: 20px;
+  	margin-bottom: 0px;
+}
+
+.dropbtn {
+    background-color:   rgb(55, 66, 70);;
+    color: white;
+    padding: 11px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    height: inherit;
+   	width: 180px;
+   	text-align: center;
+   
+}
+
+.dropdown {
+  
+    display: inline-block;
+   	float: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #1DABC1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #1DABC1;
+}
+
+.register{
+	box-sizing: border-box; 
+	color: #444; 
+	position: absolute;
+    top: calc(50% - 42px);
+    right: 60px; 
+   
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,.1);
+     
+    font-weight: 700;
+    text-decoration: none;
+   
+    cursor: pointer; 
+    min-width: 215px; 
+    margin-top: 10px; 
+    height: 52px; 
+    line-height: 52px; 
+}
+
+a:hover {
+	background-color:#1DABC1;
+}
+.dropbtn:hover{
+	background-color:#1DABC1;
+}
+.device:hover{
+	transition: 0.5s;
+	background-color:#1DABC1;
+}
+.device {
+	margin: 15px; 
+	float:left; 
+	min-width:200px; 
+	font-size: 15px; 
+	background-color: #f5f5f5;
+}
+
